@@ -24,7 +24,7 @@ export const putDb = async (content) => {
   const request = store.put({id:1,value: content});
   //Confirmation
   const result = await request;
-  console.log("content added to the database", result);
+  console.log("Content added to the database", result);
 };
 
 
@@ -41,7 +41,7 @@ export const getDb = async () => {
 
   //Confirmation
   const result = await request;
-  console.log("data read from database", result);
+  console.log("Content read from the database", result);
   return result.value;
 };
 
