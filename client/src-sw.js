@@ -42,6 +42,9 @@ new StaleWhileRevalidate({
     new CacheableResponsePlugin({
       stautus: [0,200],
     }),
+    new ExpirationPlugin({
+      maxAgeSeconds: 30 * 24 * 60 * 60,// 30 days
+    }),
   ],
 })
 
