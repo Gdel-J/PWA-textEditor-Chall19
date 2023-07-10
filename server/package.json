@@ -1,18 +1,26 @@
 {
-    "name": "JATE",
+    "name": "pwa-texteditor-challenge",
     "version": "1.0.0",
-    "description": "",
+    "description": "Just Another Text Editor (JATE) is a simple text editor project.",
     "main": "server.js",
     "scripts": {
-        "server": "nodemon server.js --ignore client"
+      "server": "cd server nodemon server.js --ignore client"
     },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
+    
+    "keywords": [
+        "text editor",
+        "JATE",
+        "node",
+        "express"
+      ],
+    "author": "GD",
+    "license": "MIT",
     "dependencies": {
         "express": "^4.17.1"
     },
     "devDependencies": {
-        "nodemon": "^2.0.4"
+        "nodemon": "^1.14.9"
     }
 }
+
+

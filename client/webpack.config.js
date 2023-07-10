@@ -2,12 +2,9 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const WebpackPwaManifest = require('webpack-pwa-manifest');
 const path = require('path');
 const { InjectManifest } = require('workbox-webpack-plugin');
-
-//  Added configured workbox plugins for a service worker and manifest file.
-
-
-// added CSS loaders and babel to webpack.
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+
+
 
 module.exports = () => {
   return {
@@ -21,6 +18,8 @@ module.exports = () => {
       filename: '[name].bundle.js', //name of the output
       path: path.resolve(__dirname, 'dist'), //output directory
     },
+
+    //  Added configured workbox plugins for a service worker and manifest file.
     plugins: [
       new HtmlWebpackPlugin({
         //It simplifies the creation of HTML files to serve our webpack bundles.
@@ -57,6 +56,7 @@ module.exports = () => {
     ],
 
     module: {//: It tells Webpack how to handle different types of modules. The rules array consists of loader objects, which define a test (what kind of files to process) and a use (what loader or loaders to use).
+      // added CSS loaders and babel to webpack.
       rules: [
         {
           test: /\.css$/i,
