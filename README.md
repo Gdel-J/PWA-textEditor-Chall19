@@ -27,11 +27,13 @@ This  application: J.A.T.E is a Progressive Web Application (PWA),  text editor,
 
 ## Installation
 
- To use this application please:
+ In order to use this application please:
  
 **Clone this repository**
+
 **Run npm i to install all dependencies**
-**Start application with `npm run start`
+
+**Start application with `npm run start`**
 
 
 
@@ -67,7 +69,7 @@ https://github.com/Gdel-J/PWA-textEditor-Challenge.git
 
 **link for our deployed application on heroku**:
 
-
+https://pwa-texteditor-challenge777-17576331dd21.herokuapp.com/
 
 
 ## License
