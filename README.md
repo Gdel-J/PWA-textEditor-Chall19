@@ -72,6 +72,9 @@ https://github.com/Gdel-J/PWA-textEditor-Challenge.git
 https://pwa-texteditor-challenge777-17576331dd21.herokuapp.com/
 
 
+![Screenshot 2023-06](https://github.com/Gdel-J/PWA-textEditor-Challenge/assets/120201085/1acecb0c-83a5-43ee-80eb-15d3bd65c51b)
+
+
 ## License
 
 This project is licensed under the MIT license.
