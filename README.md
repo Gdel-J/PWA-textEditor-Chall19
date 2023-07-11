@@ -10,8 +10,6 @@ This  application: J.A.T.E is a Progressive Web Application (PWA),  text editor,
 
 
 ## Table of Contents 
-
-
  
 - [PWA-textEditor-Challenge](#pwa-texteditor-challenge)
   - [Description](#description)
@@ -25,15 +23,35 @@ This  application: J.A.T.E is a Progressive Web Application (PWA),  text editor,
   - [Features](#features)
   - [Credits](#credits)
 
+
+
 ## Installation
 
- In order to use this application please:
+
+**repository for this application**:
+
+https://github.com/Gdel-J/PWA-textEditor-Challenge.git
+
+
+**link for our deployed application on heroku**:
+
+https://pwa-texteditor-challenge777-17576331dd21.herokuapp.com/
+
+
+![Screenshot 2023-06](https://github.com/Gdel-J/PWA-textEditor-Challenge/assets/120201085/1acecb0c-83a5-43ee-80eb-15d3bd65c51b)
+
+
+
+**In order to use this application please:**
+
+
  
-**Clone this repository**
+*Clone this repository 
 
-**Run npm i to install all dependencies**
+*Run npm i to install all dependencies
 
-**Start application with `npm run start`**
+*Start application with `npm run start`
+
 
 
 
@@ -59,22 +77,6 @@ You are allow to work online or offline which is very convenient
 ![Screenshot 2023-05](https://github.com/Gdel-J/PWA-textEditor-Challenge/assets/120201085/60c48e5b-2d54-49c5-aedc-2631c5644a61)
 
 
-
-
-**repository for this application**:
-
-https://github.com/Gdel-J/PWA-textEditor-Challenge.git
-
-
-
-**link for our deployed application on heroku**:
-
-https://pwa-texteditor-challenge777-17576331dd21.herokuapp.com/
-
-
-![Screenshot 2023-06](https://github.com/Gdel-J/PWA-textEditor-Challenge/assets/120201085/1acecb0c-83a5-43ee-80eb-15d3bd65c51b)
-
-
 ## License
 
 This project is licensed under the MIT license.
@@ -94,7 +96,7 @@ If you have any questions about this repository, you might want to open an issue
 
 ## Features
 
-N/A
+Works online or offline!!
 
 
 ## Credits
