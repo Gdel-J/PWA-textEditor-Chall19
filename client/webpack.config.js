@@ -4,8 +4,6 @@ const path = require('path');
 const { InjectManifest } = require('workbox-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
-
-
 module.exports = () => {
   return {
     mode: 'development', // Specifies the mode to use.
@@ -54,10 +52,11 @@ module.exports = () => {
         ],
       }),
     ],
-
-    module: {//: It tells Webpack how to handle different types of modules. The rules array consists of loader objects, which define a test (what kind of files to process) and a use (what loader or loaders to use).
-      // added CSS loaders and babel to webpack.
+    // It tells Webpack how to handle different types of modules. The rules array consists of loader objects, which define a test (what kind of files to process) and a use (what loader or loaders to use).
+    // added CSS loaders and babel to webpack.
+    module: {
       rules: [
+        // css loader
         {
           test: /\.css$/i,
           use: ['style-loader', 'css-loader'],
@@ -66,6 +65,8 @@ module.exports = () => {
           test: /\.(png|jpg|svg|jpeg|gif)$/i,
           type: 'asset/resource',
         },
+
+        //babel loader
         {
           test: /\.m?js$/,
           exclude: /node_modules/,
