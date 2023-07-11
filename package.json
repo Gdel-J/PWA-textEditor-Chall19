@@ -20,6 +20,14 @@
   "devDependencies": {
     "concurrently": "^8.2.0",
     "nodemon": "^1.14.9"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gdel-J/PWA-textEditor-challenge.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Gdel-J/PWA-textEditor-Challenge/issues"
+  },
+  "homepage": "https://github.com/Gdel-J/PWA-textEditor-Challenge#readme"
  
 }

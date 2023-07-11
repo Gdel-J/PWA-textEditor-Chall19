@@ -7,7 +7,7 @@
 
 This  application: J.A.T.E is a Progressive Web Application (PWA),  text editor, that runs in the browser,online or offline the user can create notes the user can retrieve them for later use. The integrated service worker and Cache API's ensure that the application will remain fully functional even without and active internet connection.
 
-The application is a web text editor where the user can create notes or code snippets with or without an internet connection and where the user can reliably retrieve them for later use. The integrated service worker and Cache API's ensure that the application will remain fully functional even without and active internet connection. This application allows the user to access visited pages even if the application is offline.
+
 
 ## Table of Contents 
 
@@ -27,12 +27,12 @@ The application is a web text editor where the user can create notes or code sni
 
 ## Installation
 
+ To use this application please:
  
-This text editor require a number of methods and store data to an IndexedDB database to be builded up.
+**Clone this repository**
+**Run npm i to install all dependencies**
+**Start application with `npm run start`
 
-This application will require the installation of Node.js and various npm packages.
-
-Node Package Manager (npm) is a software manager and installer which puts the modules in place so that the node project can utilize it, and also, it manages dependency conflicts intelligently and initialized using npm init. The package.json will be generated and will contains all the details of the application in which the user have inputted during the npm initialization.
 
 
 ## Usage
